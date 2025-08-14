@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JLS - Construção de Alto Padrão</title>
+    <script src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/imagens/favicon.ico"
+    />
+    <link rel="shortcut icon" href="./assets/imagens/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/imagens/bg.png" alt="JLS Logo" />
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li>
+              <a href="./assets/pages/servicos_assessoria.html"
+                >Serviços de Assessoria</a
+              >
+            </li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre-nos">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <button class="menu-hamburguer" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          src="./assets/imagens/Bannerotmizi.jpg"
+          alt="Guindaste em frente a um prédio moderno da JLS"
+          class="hero-background-image"
+        />
+        <div class="hero-content">
+          <h1 class="fade-in">
+            Arquitetura que Inspira. Construção que Perdura.
+          </h1>
+          <p class="fade-in" style="animation-delay: 0.2s">
+            Criamos residências e edifícios de alto padrão que redefinem o
+            conceito de luxo e exclusividade em Salvador.
+          </p>
+          <a
+            href="#projetos"
+            class="cta-button fade-in"
+            style="animation-delay: 0.4s"
+            >Assessoria GERIC e PBQP-H</a
+          >
+        </div>
+
+      </section>
+
+      <section id="assessoria" class="assessoria-destaque" style="background-color: #f8f9fa; padding: 80px 0;">
+  <div class="container">
+    <div class="assessoria-wrapper" style="display: flex; align-items: center; gap: 50px;">
+      
+      <div class="assessoria-imagem fade-in" style="flex: 1;">
+        <img src="./assets/imagens/equipe.jpg" alt="Equipe JLS em reunião de assessoria" style="max-width: 100%; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+        </div>
+
+      <div class="assessoria-texto fade-in" style="flex: 1.2;">
+        <h2 style="font-family: 'Playfair Display', serif; color: #333; font-size: 2.5rem; margin-bottom: 15px;">Assessoria Especializada em GERIC e PBQP-H</h2>
+        <p class="subtitle" style="font-size: 1.1rem; margin-bottom: 25px;">O caminho para a conformidade e excelência na construção civil.</p>
+        <p style="margin-bottom: 15px; line-height: 1.7;">Garantir as certificações GERIC (Caixa Econômica Federal) e PBQP-H (Programa Brasileiro da Qualidade e Produtividade do Habitat) é fundamental para construtoras que buscam financiamentos e um selo de qualidade reconhecido no mercado.</p>
+        <p style="margin-bottom: 30px; line-height: 1.7;">Nossa equipe de especialistas oferece uma assessoria completa, guiando sua empresa em cada etapa do processo, desde o diagnóstico inicial até a implementação das melhores práticas e a conquista das certificações.</p>
+        <a href="./assets/pages/servicos_acessoria.html" class="cta-button">Saiba Mais Detalhes</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <section id="diferenciais" class="diferenciais">
+        <div class="container">
+          <h2 class="fade-in">Nossos Diferenciais</h2>
+          <p class="subtitle fade-in">
+            Qualidade, inovação e sustentabilidade em cada detalhe.
+          </p>
+          <div class="diferenciais-wrapper">
+            <div class="diferencial-item fade-in">
+              <i class="fa-solid fa-ruler-combined fa-2x"></i>
+              <h3>Design Exclusivo</h3>
+              <p>
+                Projetos assinados por arquitetos renomados, pensados para
+                oferecer uma experiência única.
+              </p>
+            </div>
+            <div class="diferencial-item fade-in" style="animation-delay: 0.2s">
+              <i class="fa-solid fa-shield-halved fa-2x"></i>
+              <h3>Qualidade Premium</h3>
+              <p>
+                Utilizamos os materiais mais nobres e as técnicas construtivas
+                mais avançadas para garantir excelência.
+              </p>
+            </div>
+            <div class="diferencial-item fade-in" style="animation-delay: 0.4s">
+              <i class="fa-solid fa-leaf fa-2x"></i>
+              <h3>Sustentabilidade</h3>
+              <p>
+                Integramos soluções sustentáveis que valorizam o imóvel e
+                respeitam o meio ambiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="servicos">
+        <div class="container">
+          <h2 class="fade-in">Tipos de Serviços</h2>
+          <p class="subtitle fade-in">
+            Soluções completas para cada fase do seu projeto.
+          </p>
+
+          <div class="servicos-wrapper">
+            <div class="servico-item fade-in">
+              <i class="fa-solid fa-building"></i>
+              <h3>Obras Comerciais</h3>
+              <p>
+                A JLS desenvolve projetos comerciais com foco em funcionalidade,
+                inovação e eficiência, atendendo empresas de diversos portes com
+                soluções sob medida que aliam estética, segurança e desempenho.
+              </p>
+              <p>
+                Construímos galpões, centros logísticos, escritórios, lojas e
+                empreendimentos corporativos, sempre com rigoroso controle de
+                qualidade e prazos.
+              </p>
+              <p>
+                Cada obra é pensada para otimizar fluxos, valorizar a marca do
+                cliente e proporcionar conforto, aplicando tecnologias
+                sustentáveis que reduzem o impacto ambiental.
+              </p>
+            </div>
+
+            <div class="servico-item fade-in" style="animation-delay: 0.2s">
+              <i class="fa-solid fa-road-bridge"></i>
+              <h3>Obras de Infraestrutura</h3>
+              <p>
+                Executamos obras de infraestrutura com alto desempenho técnico,
+                focando no desenvolvimento urbano e social. Realizamos projetos
+                essenciais como pavimentações, drenagens, redes de saneamento e
+                terraplenagens.
+              </p>
+              <p>
+                Com equipe especializada e equipamentos modernos, nossas
+                soluções garantem durabilidade, segurança e eficiência no uso
+                dos recursos, atendendo a órgãos públicos e grandes empresas.
+              </p>
+              <p>
+                Acreditamos que infraestrutura de qualidade é a base para o
+                crescimento, contribuindo com soluções que melhoram a mobilidade
+                e a qualidade de vida da população.
+              </p>
+            </div>
+
+            <div class="servico-item fade-in" style="animation-delay: 0.4s">
+              <i class="fa-solid fa-house-chimney"></i>
+              <h3>Obras Residenciais</h3>
+              <p>
+                Realizamos empreendimentos residenciais com foco em qualidade de
+                vida, conforto e durabilidade. Projetamos e executamos casas,
+                prédios e condomínios com alto padrão construtivo e respeito às
+                normas.
+              </p>
+              <p>
+                Buscamos criar lares acolhedores, seguros e funcionais. Cada
+                projeto é desenvolvido com atenção aos detalhes, desde o
+                planejamento até o acabamento final, para proporcionar bem-estar
+                às famílias.
+              </p>
+              <p>
+                Nossa missão é construir espaços que representem o início de uma
+                nova história, participando da realização do sonho da casa
+                própria com responsabilidade e excelência.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="projetos">
+        <div class="container">
+          <h2 class="fade-in">Nossas Obras</h2>
+          <p class="subtitle fade-in">
+            Projetos que combinam design arrojado, tecnologia e sofisticação.
+          </p>
+        </div>
+
+        <div class="swiper portfolio-carousel fade-in">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto1.jpeg"
+                  alt="Projeto Exemplo 1"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto2.jpeg"
+                  alt="Projeto Exemplo 2"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto3.jpeg"
+                  alt="Projeto Exemplo 3"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto4.jpeg"
+                  alt="Projeto Exemplo 4"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto5.jpeg"
+                  alt="Projeto Exemplo 5"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto6.jpeg"
+                  alt="Projeto Exemplo 6"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto7.jpeg"
+                  alt="Projeto Exemplo 7"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto8.jpeg"
+                  alt="Projeto Exemplo 8"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto9.jpeg"
+                  alt="Projeto Exemplo 9"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto10.jpeg"
+                  alt="Projeto Exemplo 10"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto11.jpeg"
+                  alt="Projeto Exemplo 11"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto12.jpeg"
+                  alt="Projeto Exemplo 12"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto13.jpeg"
+                  alt="Projeto Exemplo 13"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto14.jpeg"
+                  alt="Projeto Exemplo 14"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto15.jpeg"
+                  alt="Projeto Exemplo 15"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto16.jpeg"
+                  alt="Projeto Exemplo 16"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto17.jpeg"
+                  alt="Projeto Exemplo 17"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto18.jpeg"
+                  alt="Projeto Exemplo 18"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto19.jpeg"
+                  alt="Projeto Exemplo 19"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto20.jpeg"
+                  alt="Projeto Exemplo 20"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto21.jpeg"
+                  alt="Projeto Exemplo 21"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto22.jpeg"
+                  alt="Projeto Exemplo 22"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto23.jpeg"
+                  alt="Projeto Exemplo 23"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto24.jpeg"
+                  alt="Projeto Exemplo 24"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto25.jpeg"
+                  alt="Projeto Exemplo 25"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto26.jpeg"
+                  alt="Projeto Exemplo 26"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img
+                  src="./assets/imagens/projects/foto27.jpeg"
+                  alt="Projeto Exemplo 27"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section id="sobre-nos" class="sobre-nos">
+        <div class="container">
+          <h2 class="fade-in">SOBRE NÓS</h2>
+          <p class="subtitle fade-in">Entenda quem somos e por que existimos</p>
+          <div class="sobre-nos-wrapper">
+            <div class="sobre-nos-texto fade-in">
+              <p>
+                A JLS é uma empresa de construção civil, com sede em
+                Salvador/BA, voltada para construção de projetos sustentáveis e
+                acessíveis. Desenvolvemos casas com placas solares,
+                automatizadas e com acessibilidade, características essenciais
+                para o conforto e segurança de todos.
+              </p>
+              <p>
+                Utilizamos tecnologias diferenciadas como o método STEEL FRAME,
+                fazendo com que nossas obras sejam mais limpas e com tempo menor
+                de finalização. Além disso, criamos soluções de engenharia e
+                construções inovadoras que beneficiam diversos setores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="contato">
+        <div class="container">
+          <div class="contato-wrapper">
+            <div class="contato-form-wrapper fade-in">
+              <h2>Vamos construir seu próximo projeto?</h2>
+              <p>
+                Deixe sua mensagem e um de nossos especialistas entrará em
+                contato para agendar uma consultoria exclusiva.
+              </p>
+              <form class="contact-form">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Seu Nome"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Seu E-mail"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Sua Mensagem"
+                  rows="5"
+                  required
+                ></textarea>
+                <button type="submit" class="cta-button">
+                  Enviar Mensagem
+                </button>
+              </form>
+            </div>
+            <div
+              class="contato-info-wrapper fade-in"
+              style="animation-delay: 0.2s"
+            >
+              <h3>Nossos Canais</h3>
+              <ul>
+                <li>
+                  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      ></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>E-mail</strong><br /><span
+                      >neide@ectconstrutora.com.br</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>Telefone</strong><br /><span>(71) 98828-2289</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>Endereço</strong><br /><span
+                      >Av. Luis Viana Filho, 6462, Edf. Wall Street, Sala 117,
+                      Salvador-BA</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 JLS EMPREENDIMENTOS. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div id="modal-assessoria" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+  
+  <div class="modal-content" style="background-color: #fff; margin: 10% auto; padding: 40px; border-radius: 8px; max-width: 600px; position: relative; box-shadow: 0 5px 15px rgba(0,0,0,0.3); animation: fadeIn 0.5s;">
+    
+    <span class="close-modal" style="position: absolute; top: 15px; right: 25px; color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+    
+    <h2 style="font-family: 'Playfair Display', serif; color: #333; font-size: 2rem;">Assessoria Completa em GERIC e PBQP-H</h2>
+    <p style="margin-top: 20px; line-height: 1.6;">Nossa assessoria foi desenhada para simplificar o processo de certificação, garantindo que sua construtora atinja os mais altos padrões de qualidade e gestão exigidos pelo mercado.</p>
+    
+    <ul style="list-style-type: none; padding: 0; margin-top: 25px;">
+      <li style="display: flex; align-items: center; margin-bottom: 15px;">
+        <i class="fa-solid fa-shield-halved" style="color: #c5a47e; margin-right: 15px; font-size: 1.2rem;"></i>
+        <span>Análise e diagnóstico completo da sua empresa.</span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 15px;">
+        <i class="fa-solid fa-ruler-combined" style="color: #c5a47e; margin-right: 15px; font-size: 1.2rem;"></i>
+        <span>Implementação de processos alinhados ao PBQP-H.</span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 15px;">
+        <i class="fa-solid fa-building" style="color: #c5a47e; margin-right: 15px; font-size: 1.2rem;"></i>
+        <span>Preparação de toda a documentação para o GERIC.</span>
+      </li>
+    </ul>
+
+    <a href="./assets/pages/servicos_acessoria.html" class="cta-button" style="display: inline-block; margin-top: 25px;">Ver Detalhes do Serviço</a>
+  </div>
+
+</div>
+  </body>
+</html>
