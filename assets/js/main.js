@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (form) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
-      const seuNumeroWhatsapp = "5571988282289";
+      const seuNumeroWhatsapp = "5571986463214";
       const nome = document.querySelector('input[name="name"]').value;
       const email = document.querySelector('input[name="email"]').value;
       const mensagem = document.querySelector('textarea[name="message"]').value;
