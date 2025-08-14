@@ -62,28 +62,4 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById('modal-assessoria');
-    const openBtn = document.getElementById('open-modal-btn');
-    const closeBtn = document.querySelector('.close-modal');
-
-    // Função para abrir o modal
-    openBtn.onclick = function(e) {
-        e.preventDefault(); // Impede a rolagem para o topo
-        modal.style.display = 'block';
-    }
-
-    // Função para fechar no 'X'
-    closeBtn.onclick = function() {
-        modal.style.display = 'none';
-    }
-
-    // Função para fechar clicando fora do modal
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    }
-});
 });
