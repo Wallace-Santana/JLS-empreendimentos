@@ -1,3 +1,10 @@
+main {
+  position: relative;
+  z-index: 1;
+}
+body.body-no-scroll {
+    overflow: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -529,18 +536,21 @@ main {
     background: var(--branco);
 }
 
-@media (max-width: 1024px) {
+.hero-logo-services img{
+    width: 300px;
+}
 
+@media (max-width: 1024px) {
     .menu-hamburguer {
         display: block;
+        position: relative;
+        z-index: 1002;
+        cursor: pointer;
     }
 
     .header nav {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        inset: 0;
         background-color: var(--amarelo-principal);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
@@ -552,12 +562,15 @@ main {
         transform: translateX(-100%);
         transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.4s ease;
         overflow: hidden;
+        z-index: 1001;
+        pointer-events: none;
     }
 
     .header nav.ativo {
         opacity: 1;
         visibility: visible;
-        transform: translateY(0);
+        transform: translateX(0);
+        pointer-events: auto;
     }
     
     .header nav ul {
@@ -580,6 +593,7 @@ main {
     .header nav a::after {
         display: none;
     }
+
     
     .contato-wrapper {
         grid-template-columns: 1fr;
