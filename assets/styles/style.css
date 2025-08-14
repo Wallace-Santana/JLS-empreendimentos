@@ -551,6 +551,7 @@ main {
         visibility: hidden;
         transform: translateX(-100%);
         transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.4s ease;
+        overflow: hidden;
     }
 
     .header nav.ativo {
@@ -610,6 +611,49 @@ main {
         width: 150px;
     }
 }
+
+@media (max-width: 992px) {
+  .assessoria-destaque .assessoria-wrapper {
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .assessoria-destaque .assessoria-imagem {
+    margin-bottom: 30px; 
+    max-width: 450px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .assessoria-destaque .assessoria-texto h2 {
+      font-size: 2.2rem; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .assessoria-destaque {
+    
+    padding: 60px 0;
+  }
+  
+  .assessoria-destaque .assessoria-texto h2 {
+      font-size: 1.8rem; 
+  }
+
+  .assessoria-destaque .assessoria-texto .subtitle {
+      font-size: 1rem; 
+  }
+
+
+  .assessoria-destaque .assessoria-texto .cta-button {
+    margin: 0 auto;
+    display: block;
+    max-width: 280px;
+  }
+}
+
+
 
 .consultoria {
     padding: 120px 0;
