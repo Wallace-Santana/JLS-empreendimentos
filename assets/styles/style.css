@@ -786,7 +786,7 @@ main {
 }
 
 .cliente-logo-item img {
-    max-height: 70px; 
+    max-height: 100px; 
     width: auto;
     object-fit: contain;
     opacity: 0.7;
